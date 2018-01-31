@@ -1,6 +1,8 @@
 # UsernameDisplay
-DiscordInjections plugin to display a tag next to users with a nickname.
+DiscordInjections plugin to display a username next to users with a nickname to help prevent confusion.
 
 You should place this file in the `Plugins` folder of the DiscordInjections project.
 
-This requires JQuery and [AFunc](https://github.com/SnazzyPine25/AFunc).
+## Dependencies
+JQuery `npm install jquery` or run `npm run install-plugins` in DiscordInjections directory
+[AFunc](https://github.com/SnazzyPine25/AFunc) (DiscordInjections Plugin).
