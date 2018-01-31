@@ -1,0 +1,14 @@
+{
+  "name": "UsernameDisplay",
+  "version": "1.0",
+  "description": "Displays usernames for when people do dumb shit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zeotni, Jordan",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
