@@ -1,6 +1,6 @@
 {
   "name": "UsernameDisplay",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Displays usernames for when people do dumb shit.",
   "main": "index.js",
   "scripts": {
