@@ -70,7 +70,7 @@ class UsernameDisplay extends Plugin {
 
           var textColor = "rgb(255, 255, 255)";
 
-          this.log(`backgroundColor: ${usernameElement.style.color}`)
+          /*this.log(`backgroundColor: ${usernameElement.style.color}`)
           if (matchColors[0]){
             this.log(`Match 1: ${matchColors[0]}`);
             var R = parseInt(matchColors[0]);
@@ -86,7 +86,7 @@ class UsernameDisplay extends Plugin {
                 }
               }
             }
-          }
+          }*/
 
           usernameTagNode.style.color = textColor;
 
