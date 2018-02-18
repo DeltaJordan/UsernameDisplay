@@ -5,4 +5,5 @@ You should place this file in the `Plugins` folder of the DiscordInjections proj
 
 ## Dependencies
 JQuery `npm install jquery` or run `npm run install-plugins` in DiscordInjections directory
+
 [AFunc](https://github.com/SnazzyPine25/AFunc) (DiscordInjections Plugin).
