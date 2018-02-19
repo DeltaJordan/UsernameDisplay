@@ -62,7 +62,7 @@ class UsernameDisplay extends Plugin {
 
           usernameTagNode.classList.add("username-tag");
 
-          this.log(`${user.username}:${usernameElement.style.color}`);
+          // this.log(`${user.username}:${usernameElement.style.color}`);
 
           usernameTagNode.style.backgroundColor = usernameElement.style.color;
 
