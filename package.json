@@ -1,14 +1,26 @@
 {
-  "name": "UsernameDisplay",
-  "version": "1.1",
-  "description": "Displays usernames for when people do dumb shit.",
+  "name": "usernamedisplay",
+  "version": "1.2.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Zeotni, Jordan",
-  "license": "MIT",
+  "author": "Jordan Zeotni",
+  "description": "Displays usernames for when people do dumb shit. It's kinda pretty too.",
   "dependencies": {
-    "jquery": "^3.3.1"
-  }
+    "jquery": "^3.3.1",
+    "afunc": "^3.0.3"
+  },
+  "peerDependencies": {
+    "elements": "*"
+  },
+  "keywords": [
+    "di-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanZeotni/UsernameDisplay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JordanZeotni/UsernameDisplay/issues"
+  },
+  "license": "MIT",
+  "css": ["css/usernamedisplay.css"]
 }
