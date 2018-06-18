@@ -52,6 +52,15 @@ module.exports = class UsernameDisplay extends Plugin {
             return;
           }
 
+<<<<<<< HEAD
+=======
+          // this.log(match);
+
+          var userIdString = match[1];
+
+          let user = window.DI.Helpers.resolveMention(`<@${userIdString}>`);
+
+>>>>>>> c77c788df4bbb4db6fa8e5625e5a421386c4b0d0
           if (usernameElement.innerHTML === user.username){
             return;
           }
@@ -117,4 +126,10 @@ module.exports = class UsernameDisplay extends Plugin {
 
 function isEmptyOrSpaces(str){
   return str === null || str.match(/^ *$/) !== null;
+<<<<<<< HEAD
 }
+=======
+}
+
+module.exports = UsernameDisplay;
+>>>>>>> c77c788df4bbb4db6fa8e5625e5a421386c4b0d0
